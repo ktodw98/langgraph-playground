@@ -1,1 +1,8 @@
+# env
 .env
+
+# Lock file
+uv.lock
+
+# Local environment configuration
+.python-version
