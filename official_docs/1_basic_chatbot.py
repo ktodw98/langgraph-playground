@@ -63,11 +63,10 @@ while True:
         print("User: " + user_input)
         stream_graph_updates(user_input)
         break
-    
+
 # 그래프 시각화
 try:
     display(Image(graph.get_graph().draw_mermaid_png()))
 except Exception:
     # This requires some extra dependencies and is optional
     pass
-
